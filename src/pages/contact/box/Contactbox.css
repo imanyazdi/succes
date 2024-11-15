@@ -1,0 +1,44 @@
+.contactbox {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1.6rem;
+}
+
+.info-box {
+    background-color: rgba(63, 63, 63, 0.322);
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 1rem;
+    min-width: 47%;
+    height: 120px;
+    margin-top: 1rem;
+}
+
+.info {
+    margin-left: 1rem;
+}
+.info p{
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.info-box i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: rgba(99, 99, 99, 0.671);
+    color: #18d26e;
+}
+@media (min-width:950px) {
+    .info-box{
+        max-width: 47%;
+    }
+}

@@ -1,0 +1,44 @@
+.contaner {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.nav-brand {
+    color: aliceblue; 
+    text-decoration: none;
+}
+.contaner h1{
+    font-size: 300%;
+    font-weight: 800;
+}
+.cotainer-box {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.nav-link.active::after {
+    content: '';
+    display: block;
+    width: 25px;
+    border-bottom: 1px solid #17ff83;
+    border-radius: 1px;
+    transform: translateX(-40%);
+    margin: 0 auto;
+    padding-top: 1px;
+}
+.home{
+    top: 30vh;
+}
+.home .container-fluid{
+    margin-left: 6rem ;
+    display: block;
+}
+.container-fluid{
+    margin: auto 3rem;
+}
+.navbarr {
+    background-color: #000000e1;
+}

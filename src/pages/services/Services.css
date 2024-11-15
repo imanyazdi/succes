@@ -1,0 +1,54 @@
+.services-boxs {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 105%;
+}
+
+.services-box {
+    background-color: rgba(80, 80, 80, 0.151);
+    min-width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    min-height: 380px;
+    transition: background-color .4s ease-in-out;
+}
+.services-box:hover{
+    background-color: #18d26f;
+    transition: background-color .2s ease-in-out;
+}
+.services-box:hover .icon  {
+    background-color: #ffffff;
+}
+.services-box:hover .icon i  {
+    color: #18d26f;
+}
+.icon-box {
+    width: 86%;
+    height: 60%;
+}
+
+.icon {
+    text-align: center;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #18d26f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: -10px -10px 0 rgba(88, 88, 88, 0.555);
+}
+
+.icon i {
+    font-size: 40px ;
+}
+

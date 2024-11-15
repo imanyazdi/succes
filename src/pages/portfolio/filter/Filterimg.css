@@ -1,0 +1,22 @@
+.botton {
+    width: 58%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.botton li {
+    list-style-type: none;
+    margin: auto;
+    width: 21%;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(104, 104, 104);
+}
+
+.botton li:active {
+    background-color: #18d26f;
+    outline: none;
+}

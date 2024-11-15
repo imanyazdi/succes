@@ -1,0 +1,33 @@
+.row{
+    width: 97%;
+    margin: auto;
+}
+.resume-title{
+    text-align: start;
+    margin: 1rem auto;
+    font-size:200%;
+}
+.resume-item h4{
+    color:  #18d26e; 
+}
+.resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    text-align: start;
+}
+.resume-item h5{
+    font-family:  "Raleway";
+}
+.resume-item ::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+}

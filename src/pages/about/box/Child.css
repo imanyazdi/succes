@@ -1,0 +1,30 @@
+.childbox{
+    background-color: rgba(32, 34, 34, 0.527);
+    min-width: 200px;
+    max-width: 80%;
+    margin: 1rem auto;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.childbox h2{
+   margin: auto;
+   font-weight: 700;
+}
+.childbox i{
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: rgba(99, 99, 99, 0.671);
+}
+.row{
+    margin: 0%;
+}

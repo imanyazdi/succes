@@ -1,0 +1,36 @@
+.skills {
+    text-align: center;
+    margin: auto;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.progress{
+    margin: 1rem auto;
+    border-radius: 0;
+    width: 99%;
+    height: 13px;
+    background-color: rgba(228, 228, 228, 0.158);
+}
+.skill-item{
+min-width: 48%;
+}
+.skill{
+    justify-content: space-between;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.progress-bar {
+    width: 0; 
+    background-color: #18d26e; 
+    animation: fillProgress 4s ease forwards;
+}
+
+@keyframes fillProgress {
+    from { width: 0; }
+    to { width: var(--final-width); } 
+}
+
+
