@@ -1,9 +1,7 @@
-.homee{
-    font-size: xx-large;
-}
 .homee h2{
     color: rgba(250, 249, 237, 0.685);
-    margin: 1rem 0;
+    margin:2rem 0 .8rem 0;
+    font-size: 3vw;
 }
 .homee span{
     color: #18d26f;
