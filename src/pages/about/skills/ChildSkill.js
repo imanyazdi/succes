@@ -14,7 +14,6 @@ export default function ChildSkill({ data }) {
         window.addEventListener("scroll",handelscrol)
         return()=>window.removeEventListener("scroll",handelscrol)
     },[])
-    console.log(scrol);
     return (
         <div className='skills row'>
             {data.map((skill, index) => (

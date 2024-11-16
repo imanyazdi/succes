@@ -11,10 +11,12 @@ export default function About() {
         <p className='section'><h5>About_____</h5></p>
         <h1>Learn more about me</h1>
       </div>
-        <Title img={Img} />
-        <Box />
+      <Title img={Img} />
+      <Box />
+      <div className='-box'>
         <p className='section'><h4> Skills_____</h4></p>
-        <Skills></Skills>
+      </div>
+      <Skills></Skills>
     </div>
   )
 }

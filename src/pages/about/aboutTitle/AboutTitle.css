@@ -25,5 +25,6 @@
     margin-top: 1rem;
 }
 .p{
-    margin-top: 2rem;
+    margin: 2.1rem auto;
+    text-align: start;
 }
